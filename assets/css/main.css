@@ -171,24 +171,23 @@ input, select, textarea {
 		}
 
 
-	@media screen and (max-width: 736px) {
-	body {
-		background-image:
-		linear-gradient(
-			to bottom,
-			rgba(0, 0, 0, 0.10) 0%,
-			rgba(0, 0, 0, 0.35) 60%,
-			rgba(0, 0, 0, 0.75) 100%
-		),
-		url("images/PIA22931.jpeg");
+		@media screen and (max-width: 736px) {
+		body {
+			background-image:
+			linear-gradient(
+				to bottom,
+				rgba(0, 0, 0, 0.10) 0%,
+				rgba(0, 0, 0, 0.35) 60%,
+				rgba(0, 0, 0, 0.75) 100%
+			),
+			url("images/mobile.jpg");
 
-		background-size: cover;
-		background-position: top center;
-		background-repeat: no-repeat;
-		background-attachment: scroll;
-		background-color: #000000;
-	}
-	}
+			background-size: cover;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+		}
+		}
 
 	a {
 		-moz-transition: color 0.2s ease, border-bottom 0.2s ease;
