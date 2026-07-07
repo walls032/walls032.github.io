@@ -3917,3 +3917,7 @@ header.major.with-subheader:after {
 			}
 
 		}
+html,
+body {
+	background-color: #000000 !important;
+}
