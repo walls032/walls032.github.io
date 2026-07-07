@@ -182,7 +182,7 @@ input, select, textarea {
 		),
 		url("images/PIA22931.jpeg");
 
-		background-size: contain;
+		background-size: cover;
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
