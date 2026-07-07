@@ -170,6 +170,26 @@ input, select, textarea {
 
 		}
 
+
+	@media screen and (max-width: 736px) {
+	body {
+		background-image:
+		linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.10) 0%,
+			rgba(0, 0, 0, 0.35) 60%,
+			rgba(0, 0, 0, 0.75) 100%
+		),
+		url("../../images/your-background.jpg");
+
+		background-size: contain;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-color: #000000;
+	}
+	}
+
 	a {
 		-moz-transition: color 0.2s ease, border-bottom 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
